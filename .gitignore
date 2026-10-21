@@ -1,0 +1,22 @@
+﻿# 大文件 / 二进制，不进仓库
+*.pptx
+*.ppt
+*.zip
+*.rar
+*.SLDPRT
+*.SLDASM
+*.sldprt
+*.sldasm
+*.stp
+*.step
+*.STL
+*.stl
+*.xlsx
+*.pdf
+
+# 中间产物
+_*.txt
+_*.sh
+_*.py
+.DS_Store
+Thumbs.db

@@ -20,3 +20,9 @@ _*.sh
 _*.py
 .DS_Store
 Thumbs.db
+
+# 视频（体积大，不进仓库）
+*.mp4
+*.avi
+*.wmv
+*.mov

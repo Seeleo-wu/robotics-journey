@@ -27,6 +27,7 @@ copy "$SRC/02-机械/AI生成减速箱"        "01-mechanical"
 copy "$SRC/03-软件"                    "02-software"
 copy "$SRC/03-软件/Keyshot"            "02-software"
 copy "$SRC/04-系统"                    "03-system"
+copy "$SRC/07-项目"                    "04-projects"
 
 echo ""
 echo "已同步 $n 个文件。"

@@ -1,4 +1,4 @@
-﻿# 大文件 / 二进制，不进仓库
+# 大文件 / 二进制，不进仓库
 *.pptx
 *.ppt
 *.zip
@@ -26,3 +26,11 @@ Thumbs.db
 *.avi
 *.wmv
 *.mov
+# LaTeX 中间产物
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk

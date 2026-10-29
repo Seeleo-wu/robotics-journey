@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<title>生涯发展报告</title>
+<style>
+@page { size: A4; margin: 16mm 15mm 14mm 15mm; }
+body { font-family: "Microsoft YaHei","Segoe UI",sans-serif; color:#1a1a1a; font-size: 10.6pt; line-height: 1.62; }
+h1 { font-size: 19pt; margin: 0 0 2mm 0; letter-spacing: 1px; }
+.sub { color:#5a5a5a; font-size: 9.6pt; margin-bottom: 5mm; border-bottom: 1.6pt solid #1f4e79; padding-bottom: 3mm;}
+h2 { font-size: 12.2pt; color:#1f4e79; margin: 6mm 0 2mm 0; padding-left: 3mm; border-left: 3.5pt solid #1f4e79; }
+p { margin: 0 0 2.2mm 0; text-align: justify; }
+.fig { margin: 3mm 0 4mm 0; text-align:center; page-break-inside: avoid; }
+.cap { font-size: 8.8pt; color:#555; margin-top: 1.2mm; }
+.two { display:flex; gap:5mm; align-items:center; }
+.tag { display:inline-block; background:#eef3f8; border:0.6pt solid #c7d8e8; color:#1f4e79; font-size:8.6pt; padding:0.6mm 2mm; border-radius:1.5mm; margin-right:1.5mm; }
+.metric { display:flex; gap:3mm; margin:3mm 0; }
+.metric div { flex:1; border:0.7pt solid #d6d6d6; border-radius:2mm; padding:2.5mm; text-align:center; }
+.metric b { display:block; font-size:14pt; color:#1f4e79; }
+.metric span { font-size:8.4pt; color:#555; }
+</style></head><body>
+
+<h1>生涯发展报告</h1>
+<div class="sub">邬宇宸 · 河北工业大学 · 机械设计制造及其自动化（2025级本科）<br>
+目标职业（报名填报）：工程技术类 · 机械工程技术人员　|　目标行业：装备制造<br>远期方向：具身智能装备的结构—算法协同　|　正文 1,500 字以内，图表 4 张</div>
+
+<h2>一、自我认知：以机械为锚点，向算法延伸</h2>
+<p>我判断自己适合"能看见东西动起来"的工作。高中起对机构传动着迷，选择机械设计制造及其自动化，因为它能把"想法"变成"实体"。两年下来形成三个可验证的自我认知。</p>
+<p><b>能力画像（诚实版）。</b>机械侧：独立完成 RoboMaster 龙门架装配体设计与干涉优化；用 Simulation 做静力分析并以<span class="tag">手算对答案</span>验证——悬臂梁位移 0.7538 mm、应力 119.4 MPa，与理论解误差均小于 1.5%。软件侧：ROS 2 Jazzy 从 turtlesim 起步，完成发布者、订阅者与闭环航点节点，并亲手写出合法的功能包。Python 仍在补课（未掌握面向对象）；线性代数已过完；CET-4 通过。</p>
+<p><b>性格与工作方式。</b>我偏向"先验证再相信"：软件的结果要对得上手算的答案；遇到报错先读原文而不是试参数。战队机械组经历让我习惯"设计—评审—改图"的节奏，也暴露短板：缺乏反馈时难以长期投入，需要可量化的里程碑。</p>
+<p><b>价值观排序。</b>①做出来能用 ②能被验证 ③被人需要 ④能力可持续迁移。它解释了我不愿只做绘图岗，也解释了为何愿为干涉体积从 12248.94 降到 1258.64 mm³ 反复改图三周。</p>
+
+<div class="fig">
+<svg width="430" height="205" viewBox="0 0 430 205">
+  <g transform="translate(105,102)">
+    <polygon points="0,-78 67.5,-39 67.5,39 0,78 -67.5,39 -67.5,-39" fill="none" stroke="#cfd8e3" stroke-width="1"/>
+    <polygon points="0,-52 45,-26 45,26 0,52 -45,26 -45,-26" fill="none" stroke="#e3e9f0" stroke-width="1"/>
+    <polygon points="0,-26 22.5,-13 22.5,13 0,26 -22.5,13 -22.5,-13" fill="none" stroke="#e3e9f0" stroke-width="1"/>
+    <line x1="0" y1="0" x2="0" y2="-78" stroke="#e3e9f0"/><line x1="0" y1="0" x2="67.5" y2="-39" stroke="#e3e9f0"/>
+    <line x1="0" y1="0" x2="67.5" y2="39" stroke="#e3e9f0"/><line x1="0" y1="0" x2="0" y2="78" stroke="#e3e9f0"/>
+    <line x1="0" y1="0" x2="-67.5" y2="39" stroke="#e3e9f0"/><line x1="0" y1="0" x2="-67.5" y2="-39" stroke="#e3e9f0"/>
+    <polygon points="0,-62.4 47.25,-27.3 33.75,19.5 0,54.6 -40.5,23.4 -47.25,-27.3"
+             fill="#1f4e79" fill-opacity="0.18" stroke="#1f4e79" stroke-width="1.6"/>
+    <g fill="#1f4e79"><circle cx="0" cy="-62.4" r="2.6"/><circle cx="47.25" cy="-27.3" r="2.6"/><circle cx="33.75" cy="19.5" r="2.6"/><circle cx="0" cy="54.6" r="2.6"/><circle cx="-40.5" cy="23.4" r="2.6"/><circle cx="-47.25" cy="-27.3" r="2.6"/></g>
+  </g>
+  <g font-size="10" fill="#333" text-anchor="middle">
+    <text x="105" y="12">机械结构 8</text><text x="248" y="46">仿真验证 7</text><text x="252" y="150">编程/ROS2 5</text>
+    <text x="105" y="196">数学基础 4</text><text x="-28" y="150">英语 5</text><text x="-38" y="46">团队协作 7</text>
+  </g>
+  <g font-size="10" fill="#1f4e79" text-anchor="start">
+    <text x="330" y="46">现状（10分制）</text><text x="330" y="64" fill="#777">待补：数学、编程</text><text x="330" y="82" fill="#777">优势：机械、仿真</text>
+  </g>
+</svg>
+<div class="cap">图1　能力现状雷达（自评，10 分制）</div>
+</div>
+
+<h2>二、职业认知：装备制造缺的是"机械+控制"的中间层</h2>
+<p>装备制造正在从"画图—加工"转向"仿真—验证—集成"：只出图纸、只做三维模型的人正被软件替代，<b>能把仿真结果与实物对上、又能把设备连上程序的人</b>反而紧缺。这条线的延长段是具身智能，它最缺的也不是纯算法研究者，而是能同时读懂机构与控制器的人——既能将"关节该转多少度"翻译成"连杆、减速比、电机选型"，也能把"策略发散"定位到"惯量参数写错"。</p>
+<p><b>目标岗位画像。</b>近期（1—3 年）：机械设计 / 结构仿真工程师，要 CAD 与完整公差链条、传动与标准件选型、有限元与运动学仿真驱动设计。中期（3—5 年）：机器人集成或具身智能装备的结构—算法协同岗，要 URDF 与物理仿真、运动学规划、感知—控制闭环。长期：装备产品化负责人。</p>
+<p><b>我与岗位的差距。</b>机械设计与仿真方法论已接近岗位起点；缺口在软件工程能力（面向对象、调试、版本管理）、数学工具（概率与优化），以及"没进过真实项目组"的背书缺失。</p>
+
+<div class="fig">
+<svg width="560" height="170" viewBox="0 0 560 170" font-size="9.5">
+  <g>
+    <rect x="120" y="12" width="45" height="20" fill="#1f4e79" opacity="0.85"/><rect x="165" y="12" width="45" height="20" fill="#4f81bd" opacity="0.75"/><rect x="210" y="12" width="45" height="20" fill="#9dc3e6" opacity="0.8"/><rect x="255" y="12" width="45" height="20" fill="#dbe5f1"/>
+    <text x="120" y="46" font-size="8.5" fill="#555">强</text><text x="290" y="46" font-size="8.5" fill="#555">弱</text>
+  </g>
+  <g fill="#333">
+    <text x="8" y="27">机械设计/公差</text><text x="8" y="52">有限元仿真</text><text x="8" y="77">ROS2 与编程</text>
+    <text x="8" y="102">运动学/数学</text><text x="8" y="127">工程协作</text><text x="8" y="152">英语/文献</text>
+  </g>
+  <g>
+    <rect x="120" y="16" width="40" height="16" fill="#1f4e79"/><rect x="120" y="41" width="35" height="16" fill="#1f4e79"/><rect x="120" y="66" width="20" height="16" fill="#9dc3e6"/>
+    <rect x="120" y="91" width="15" height="16" fill="#dbe5f1"/><rect x="120" y="116" width="32" height="16" fill="#4f81bd"/><rect x="120" y="141" width="22" height="16" fill="#9dc3e6"/>
+    <g fill="#1f4e79" font-size="8.6"><text x="166" y="28">8.0</text><text x="161" y="53">7.0</text><text x="146" y="78">4.0</text><text x="141" y="103">3.0</text><text x="158" y="128">6.4</text><text x="148" y="153">4.4</text></g>
+  </g>
+  <g fill="#c0504d" opacity="0.85">
+    <circle cx="150" cy="74" r="3.4"/><circle cx="145" cy="99" r="3.4"/>
+  </g>
+  <text x="380" y="78" font-size="9" fill="#c0504d">● 优先补齐区</text>
+  <text x="380" y="98" font-size="8.6" fill="#666">2027 目标：编程 7.0</text>
+  <text x="380" y="113" font-size="8.6" fill="#666">数学 6.0</text>
+  <text x="380" y="128" font-size="8.6" fill="#666">其余保持</text>
+</svg>
+<div class="cap">图2　岗位能力匹配度（10 分制）</div>
+</div>
+
+<h2>三、生涯规划：三段式路线</h2>
+<p><b>阶段一（2025—2027，打地基）。</b>机械侧：系统学完机械原理与机械设计，每个机构（四杆、凸轮、齿轮轮系）都在 SolidWorks Motion 里建模、仿真、与解析解对一次答案。软件侧：走完 ROS 2 主线七步，把 HERO 做成可被程序驱动的数字孪生。学业侧：GPA 进专业前 20%。</p>
+<p><b>阶段二（2027—2029，定出口）。</b>2027 年 3 月前完成"保研 / 出国"决策：保研以机器人方向竞赛与项目成果争取推免；出国目标德国 TU9，APS 需 6 学期成绩，最迟 2028 年 7 月启动。同期沉淀一件可复现的东西：HERO 数字孪生开源仓库 + 一篇美赛论文（主攻 A 题）。</p>
+<p><b>阶段三（2029—2032，进产业）。</b>进入装备制造或机器人企业做机械工程技术人员，从结构设计岗起步，三年内争取转到结构—算法协同岗，独立主导一个"从机构到策略"的完整模块。</p>
+
+<div class="fig">
+<svg width="560" height="200" viewBox="0 0 560 200" font-size="8.8">
+  <defs><marker id="ar" markerWidth="7" markerHeight="7" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#555"/></marker></defs>
+  <line x1="60" y1="176" x2="548" y2="176" stroke="#555" stroke-width="1.2" marker-end="url(#ar)"/>
+  <g fill="#555" text-anchor="middle"><text x="86" y="192">2025</text><text x="170" y="192">2026</text><text x="254" y="192">2027</text><text x="338" y="192">2028</text><text x="422" y="192">2029</text><text x="506" y="192">2032</text></g>
+  <g stroke="#e3e9f0"><line x1="170" y1="18" x2="170" y2="176"/><line x1="254" y1="18" x2="254" y2="176"/><line x1="338" y1="18" x2="338" y2="176"/><line x1="422" y1="18" x2="422" y2="176"/></g>
+  <g>
+    <text x="4" y="33" fill="#333">机械线</text><rect x="66" y="23" width="272" height="13" rx="2" fill="#1f4e79" opacity="0.85"/>
+    <text x="4" y="55" fill="#333">ROS2 软件线</text><rect x="196" y="45" width="230" height="13" rx="2" fill="#4f81bd" opacity="0.85"/>
+    <text x="4" y="77" fill="#333">URDF/Gazebo</text><rect x="240" y="67" width="160" height="13" rx="2" fill="#9dc3e6"/>
+    <text x="4" y="99" fill="#333">美赛 A 题</text><rect x="248" y="89" width="60" height="13" rx="2" fill="#c0504d" opacity="0.8"/>
+    <text x="4" y="121" fill="#333">保研/出国决策</text><circle cx="254" cy="115" r="4.5" fill="#c0504d"/><text x="264" y="119" fill="#c0504d">2027-03</text>
+    <text x="4" y="143" fill="#333">德语/APS</text><rect x="300" y="133" width="120" height="13" rx="2" fill="#9dc3e6"/>
+    <text x="4" y="165" fill="#333">开源沉淀</text><rect x="270" y="155" width="230" height="13" rx="2" fill="#1f4e79" opacity="0.55"/>
+  </g>
+</svg>
+<div class="cap">图3　五年主轴路线图</div>
+</div>
+
+<h2>四、行动计划与已验证成果</h2>
+<p>这一节只写已经发生的事和正在跑的循环。</p>
+<div class="metric">
+  <div><b>23 处</b><span>龙门架干涉从 29 处降至 23 处，A/B/C 三类重大问题清零</span></div>
+  <div><b>1.5%</b><span>悬臂梁仿真与手算误差，网格收敛已验证</span></div>
+  <div><b>12.5h</b><span>每周固定学习预算（软件/机械/英语/复盘）</span></div>
+  <div><b>7 大类</b><span>个人知识库目录 + GitHub 仓库持续提交</span></div>
+</div>
+<p><b>正在跑的周循环。</b>周一、周二、周四 20:00—21:30 软件线；周六、周日 09:00—11:00 机械线；每天 12:30—13:00 英语；周日 15:00—16:00 复盘写日志，并把当周日志同步到 GitHub。</p>
+<p><b>关键调整：项目背书缺失的替代方案。</b>加入实体项目组这条路近期受阻，改用"自建可验证项目"：以战队 HERO 机器人为对象，在 ROS 2 中完成 URDF、Gazebo 仿真、差速驱动与自主导航的整条闭环，全过程记在开源仓库。它提供可复现的技术证明、可量化的里程碑与可展示的工程习惯，能部分替代团队背书；同时继续找助研、大创与开源 good-first-issue 等真实协作入口。</p>
+<p><b>风险与预案。</b>① 两线并行导致都不深 → 每周只许一条主线，另一条最低维持。② 保研失败 → 2027 年 3 月同时启动德国路径。③ 编程薄弱拖住进度 → Python 补课与 ROS 2 交替推进，以"能跑通的节点"为唯一验收标准。</p>
+
+<div class="fig">
+<svg width="540" height="120" viewBox="0 0 540 120" font-size="9">
+  <g fill="#333"><text x="4" y="26">软件线</text><text x="4" y="50">机械线</text><text x="4" y="74">英语</text><text x="4" y="98">复盘</text></g>
+  <g>
+    <rect x="90" y="16" width="230" height="14" fill="#1f4e79"/><text x="326" y="27" fill="#1f4e79">4.5 h</text>
+    <rect x="90" y="40" width="180" height="14" fill="#4f81bd"/><text x="276" y="51" fill="#4f81bd">3.5 h</text>
+    <rect x="90" y="64" width="180" height="14" fill="#9dc3e6"/><text x="276" y="75" fill="#9dc3e6">3.5 h</text>
+    <rect x="90" y="88" width="52" height="14" fill="#c0504d" opacity="0.8"/><text x="148" y="99" fill="#c0504d">1.0 h</text>
+  </g>
+  <text x="400" y="27" font-size="8.6" fill="#666">ROS2 主线七步</text>
+  <text x="400" y="51" font-size="8.6" fill="#666">机械原理 + Motion</text>
+  <text x="400" y="75" font-size="8.6" fill="#666">文献与技术英语</text>
+  <text x="400" y="99" font-size="8.6" fill="#666">日志 + GitHub 同步</text>
+</svg>
+<div class="cap">图4　每周 12.5 小时时间预算分配</div>
+</div>
+
+<h2>五、结语</h2>
+<p>我的生涯目标可以用一句话说清：<b>做一个能把机构做出来、也把算法跑起来的人</b>。具身智能不只属于写模型的人，也不只属于画结构的人，而属于能把两边对齐的人。机械侧我已做到可验证的精度，也刚独立写出第一个 ROS 2 功能包；接下来两年，我要把从"零件"到"策略"的路走通一遍。</p>
+
+</body></html>
